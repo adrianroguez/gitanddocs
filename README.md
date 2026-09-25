@@ -16,7 +16,7 @@ curl -sSf https://astral.sh/uv/install.sh | sh
 
 **Comprobar la ruta del ejecutable:**
    
-```bash
+```
 which uv
 ```
 *(Debería apuntar habitualmente a `~/.cargo/bin/uv` o `~/.local/bin/uv`)*
@@ -52,7 +52,7 @@ uv add zensical
 
 > **Nota:** Para asegurarte de que Zensical solo se instale como herramienta de desarrollo (y no en el entorno de producción), utiliza la bandera `--dev`:
 
-```bash
+```
 uv add --dev zensical
 ```
 
